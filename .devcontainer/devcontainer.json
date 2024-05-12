@@ -25,7 +25,7 @@
 	"containerUser": "lcas",
 	// Configure tool-specific properties.
 	// "customizations": {},
-	"runArgs": [ "--security-opt", "seccomp=unconfined", "--cap-add=NET_ADMIN" ],
+	"runArgs": [ "--security-opt", "seccomp=unconfined", "--cap-add=NET_ADMIN", "--shm-size=1g"],
 
 	"containerEnv": {
         "ROS_LOCALHOST_ONLY": "0",
