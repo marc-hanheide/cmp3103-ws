@@ -29,6 +29,7 @@
 
 	"containerEnv": {
         "ROS_LOCALHOST_ONLY": "0",
+		"ROS_DOMAIN_ID": "2",
         "LIBGL_ALWAYS_SOFTWARE": "1" // Needed for software rendering of opengl
     },
 
